@@ -8,26 +8,33 @@ function SideBar() {
 	return (
 		<div className="sidebar">
 			<FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-			<SideBar_Option text="Explore">
-				<FontAwesomeIcon icon={faHashtag}></FontAwesomeIcon>
+			<SideBar_Option 
+				text="Explore"
+				Icon={<FontAwesomeIcon icon={faHashtag}></FontAwesomeIcon>} >
 			</SideBar_Option>
-			<SideBar_Option text="Notifications">
-				<FontAwesomeIcon icon={faBell}></FontAwesomeIcon>
+			<SideBar_Option 
+				text="Notifications"
+				Icon={<FontAwesomeIcon icon={faBell}></FontAwesomeIcon>} >
 			</SideBar_Option>
-			<SideBar_Option text="Messages">
-				<FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+			<SideBar_Option 
+				text="Messages"
+				Icon={<FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>} >
 			</SideBar_Option>
-			<SideBar_Option text="Bookmarks">
-				<FontAwesomeIcon icon={faBookmark}></FontAwesomeIcon>
+			<SideBar_Option 
+				text="Bookmarks"
+				Icon={<FontAwesomeIcon icon={faBookmark}></FontAwesomeIcon>} >
 			</SideBar_Option>
-			<SideBar_Option text="Lists">
-				<FontAwesomeIcon icon={faListUl}></FontAwesomeIcon>
+			<SideBar_Option 
+				text="Lists"
+				Icon={<FontAwesomeIcon icon={faListUl}></FontAwesomeIcon>} >
 			</SideBar_Option>
-			<SideBar_Option text="Profile">
-				<FontAwesomeIcon icon={faUserAlt}></FontAwesomeIcon>
+			<SideBar_Option 
+				text="Profile"
+				Icon={<FontAwesomeIcon icon={faUserAlt}></FontAwesomeIcon>} >
 			</SideBar_Option>
-			<SideBar_Option text="More">
-				<FontAwesomeIcon icon={faEllipsisH}></FontAwesomeIcon>
+			<SideBar_Option 
+				text="More"
+				Icon={<FontAwesomeIcon icon={faEllipsisH}></FontAwesomeIcon>} >
 			</SideBar_Option>
 		</div>
 	)

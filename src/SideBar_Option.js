@@ -1,9 +1,9 @@
 import React from 'react'
 import "./SideBar_Option.css"
-function SideBar_Option({children,text}) {
+function SideBar_Option({Icon,text}) {
 	return (
-		<div className="sidebar_option">
-		{children}
+		<div className="sidebarOption">
+		{Icon}
 		<h2>{text}</h2>
 		</div>
 	)
