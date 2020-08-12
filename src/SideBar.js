@@ -8,7 +8,7 @@ import { faHashtag,faBell,faEnvelope,faBookmark,faListUl,faUserAlt,faEllipsisH }
 function SideBar() {
 	return (
 		<div className="sidebar">
-			<FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+			<FontAwesomeIcon className='sidebar__twittericon'icon={faTwitter}></FontAwesomeIcon>
 			<SideBarOption 
 				active
 				text="Explore"
