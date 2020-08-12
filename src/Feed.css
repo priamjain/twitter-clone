@@ -1,13 +1,21 @@
 .feed{
-	flex:0.4;
+	flex:0.5;
 	min-width: fit-content;
 	overflow-y: scroll;
-
+	-ms-overflow-style:none;
+	scrollbar-width:none;
+	border-right: 1px solid var(--twitter-background);
+}
+.feed::-webkit-scrollbar{
+	display: none;
 }
 .feed__header{
+	font-weight: 800;
+	font-size: 20px;
+	color: var(--twitter-color);
 	position: sticky;
 	top:0;
 	background-color: white;
-	border: 1px solid var(--twitter-background);
+	border-bottom: 1px solid var(--twitter-background);
 	padding: 7px;
 }
