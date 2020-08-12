@@ -1,0 +1,11 @@
+.tweetbutton{
+	border: 0;
+	color: white;
+	background-color: var(--twitter-color);
+	font-weight: 900;
+width: 100%;
+border-radius: 30px;
+height: 50px;
+margin-top: 20px;
+outline: none;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
-import SideBar_Option from './SideBar_Option'
+import SideBarOption from './SideBar_Option'
+import './SideBar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faHashtag,faBell,faEnvelope,faBookmark,faListUl,faUserAlt,faEllipsisH } from '@fortawesome/free-solid-svg-icons'
@@ -8,34 +9,39 @@ function SideBar() {
 	return (
 		<div className="sidebar">
 			<FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-			<SideBar_Option 
+			<SideBarOption 
+				active
 				text="Explore"
 				Icon={<FontAwesomeIcon icon={faHashtag}></FontAwesomeIcon>} >
-			</SideBar_Option>
-			<SideBar_Option 
+			</SideBarOption>
+			<SideBarOption 
 				text="Notifications"
 				Icon={<FontAwesomeIcon icon={faBell}></FontAwesomeIcon>} >
-			</SideBar_Option>
-			<SideBar_Option 
+			</SideBarOption>
+			<SideBarOption 
 				text="Messages"
 				Icon={<FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>} >
-			</SideBar_Option>
-			<SideBar_Option 
+			</SideBarOption>
+			<SideBarOption 
 				text="Bookmarks"
 				Icon={<FontAwesomeIcon icon={faBookmark}></FontAwesomeIcon>} >
-			</SideBar_Option>
-			<SideBar_Option 
+			</SideBarOption>
+			<SideBarOption 
 				text="Lists"
 				Icon={<FontAwesomeIcon icon={faListUl}></FontAwesomeIcon>} >
-			</SideBar_Option>
-			<SideBar_Option 
+			</SideBarOption>
+			<SideBarOption 
 				text="Profile"
 				Icon={<FontAwesomeIcon icon={faUserAlt}></FontAwesomeIcon>} >
-			</SideBar_Option>
-			<SideBar_Option 
+			</SideBarOption>
+			<SideBarOption 
 				text="More"
 				Icon={<FontAwesomeIcon icon={faEllipsisH}></FontAwesomeIcon>} >
-			</SideBar_Option>
+			</SideBarOption>
+			<button
+				className='tweetbutton'>
+			Tweet
+			</button>
 		</div>
 	)
 }
