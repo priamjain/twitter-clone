@@ -6,8 +6,7 @@ function Feed() {
 		<div className='feed'>
 			<h2 className="feed__header">Home</h2>
 			<TweetBox></TweetBox>
-			<p>abc</p>
-			<p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p><p>abc</p>
+			
 		</div>
 
 	)
