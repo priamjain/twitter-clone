@@ -1,4 +1,5 @@
 .feed{
+	width: 100%;
 	flex:0.5;
 	min-width: fit-content;
 	overflow-y: scroll;

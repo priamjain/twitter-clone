@@ -3,7 +3,7 @@ import SideBarOption from './SideBar_Option'
 import './SideBar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faHashtag,faBell,faEnvelope,faBookmark,faListUl,faUserAlt,faEllipsisH } from '@fortawesome/free-solid-svg-icons'
+import { faHashtag,faBell,faEnvelope,faBookmark,faListUl,faUserAlt,faEllipsisH,faHome } from '@fortawesome/free-solid-svg-icons'
 
 function SideBar() {
 	return (
@@ -11,6 +11,10 @@ function SideBar() {
 			<FontAwesomeIcon className='sidebar__twittericon'icon={faTwitter}></FontAwesomeIcon>
 			<SideBarOption 
 				active
+				text="Home"
+				Icon={<FontAwesomeIcon icon={faHome}></FontAwesomeIcon>} >
+			</SideBarOption>
+			<SideBarOption 
 				text="Explore"
 				Icon={<FontAwesomeIcon icon={faHashtag}></FontAwesomeIcon>} >
 			</SideBarOption>
