@@ -1,3 +1,23 @@
 .widgets{
 	flex:0.3;
 }
+.widget__input{
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+}
+.widget__search{
+	padding-left: 10px; 
+	background-color: #f1f1f1;
+	height:30px;
+	width: 100%;
+	border-radius: 15px;
+	outline: none;
+	border: 1px solid var(--twitter-background);
+}
+.whatsHappening{
+	margin: 10px 20px;
+	background-color: #f1f1f1;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
