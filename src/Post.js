@@ -17,10 +17,10 @@ function Post({
 			</div>
 			<div className="post__body">
 				<div className="post__header">
-					<h4>Priam Jain
+					<h4>Person.getName();
 							<FontAwesomeIcon className="post__badge" icon={faCheckCircle}></FontAwesomeIcon>
 							<span className="post__headerSpecial">
-							@priamjain
+							@effervescent22
 							</span>
 						
 					</h4>
