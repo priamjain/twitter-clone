@@ -7,3 +7,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * CSS
 
 ## Only Front End is implemented in this project
+
+##Screenshot
+(./demo.png)
